@@ -245,10 +245,6 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     ueventd.qcom.rc
 
-# IFAA manager
-PRODUCT_PACKAGES += \
-    IFAAService
-
 # IPACM
 PRODUCT_PACKAGES += \
     ipacm \
