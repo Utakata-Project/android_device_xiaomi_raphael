@@ -109,11 +109,11 @@ user: AID_SYSTEM
 group: AID_SYSTEM
 caps: NET_BIND_SERVICE BLOCK_SUSPEND NET_ADMIN
 
-[vendor/bin/slim_daemon]
+[system/vendor/bin/cnd]
 mode: 0755
-user:  AID_GPS
-group: AID_GPS
-caps: NET_BIND_SERVICE
+user: AID_SYSTEM
+group: AID_SYSTEM
+caps: NET_BIND_SERVICE BLOCK_SUSPEND NET_ADMIN
 
 [vendor/bin/loc_launcher]
 mode: 0755
